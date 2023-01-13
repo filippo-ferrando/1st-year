@@ -1,0 +1,5 @@
+/** 
+ * Obsoleta
+ */
+public class EguaglianzaEquivalenzaArray  {
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>TIPI DI DATI PRIMITIVI &nbsp;&nbsp;&nbsp;(da The Java Tutorials)</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+<a href="http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html" target="_blank"><span class=l>~</span>&nbsp;<span style="font-size: 116%;font-family: SansSerif, sans-serif; font-weight: bold; ">&#xa;    <p style="text-align: center">&#xa;      TIPI DI DATI PRIMITIVI&#xa;    </p>&#xa;    <p style="text-align: center">&#xa;      (da The Java Tutorials)&#xa;    </p>&#xa;  </span>
+</a>
+<ul><li><p><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Numeri interi</span>
+<ul><li>&#xa;    <p>&#xa;      <b>byte</b>: The byte data type is an <b><i>8-bit</i></b>&#160;signed&#xa;    </p>&#xa;    <p>&#xa;      two's complement integer. It has a minimum&#xa;    </p>&#xa;    <p>&#xa;      value of -128 and a maximum value of 127&#xa;    </p>&#xa;    <p>&#xa;      (inclusive).&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Dichiarazione. </b>&#xa;    </p>&#xa;    <pre style="text-indent: 0px; font-style: normal; font-weight: normal; line-height: normal; word-spacing: 0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; text-align: start; text-transform: none">byte b = 100; // entro il range</pre>&#xa;  
+&#xa;    <p>&#xa;      <b>short</b>: The short data type is a <b><i>16-bit</i></b>&#160;signed&#xa;    </p>&#xa;    <p>&#xa;      two's complement integer. It has a minimum&#xa;    </p>&#xa;    <p>&#xa;      value of -32,768 and a maximum value of 32,767&#xa;    </p>&#xa;    <p>&#xa;      (inclusive).&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Dichiarazione. </b>&#xa;    </p>&#xa;    <pre style="text-indent: 0px; font-style: normal; font-weight: normal; line-height: normal; word-spacing: 0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; text-align: start; text-transform: none">short s = 10000; // entro il range</pre>&#xa;  
+&#xa;    <p>&#xa;      <b>int</b>: The int data type is a <b><i>32-bit</i></b>&#160;signed&#xa;    </p>&#xa;    <p>&#xa;      two's complement integer. It has a minimum&#xa;    </p>&#xa;    <p>&#xa;      value of -2,147,483,648 and a maximum value&#xa;    </p>&#xa;    <p>&#xa;      of 2,147,483,647 (inclusive). For integral values,&#xa;    </p>&#xa;    <p>&#xa;      this data type is generally the default choice&#xa;    </p>&#xa;    <p>&#xa;      unless there is a reason (like the above) to choose&#xa;    </p>&#xa;    <p>&#xa;      something else.&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Dichiarazione. </b>&#xa;    </p>&#xa;    <pre style="text-indent: 0px; font-style: normal; font-weight: normal; line-height: normal; word-spacing: 0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; text-align: start; text-transform: none">int i = 100000; // entro il range</pre>&#xa;  
+&#xa;    <p>&#xa;      <b>long</b>: The long data type is a <i><b>64-bit</b></i>&#160;signed&#xa;    </p>&#xa;    <p>&#xa;      two's complement integer. It has a minimum&#xa;    </p>&#xa;    <p>&#xa;      value of -9,223,372,036,854,775,808 and a&#xa;    </p>&#xa;    <p>&#xa;      maximum value of 9,223,372,036,854,775,807&#xa;    </p>&#xa;    <p>&#xa;      (inclusive).&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Dichiarazione. </b>&#xa;    </p>&#xa;    <pre style="color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px; font-variant: normal; line-height: normal; font-style: normal; font-weight: normal; text-indent: 0px; letter-spacing: normal; text-align: start">long i = 100000L; // letterale int seguito da L&#xa;long j = 200000l; // letterale int seguito da l</pre>&#xa;  
+</li>
+</ul><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">&#xa;    <p style="text-align: center">&#xa;      Numeri in&#xa;    </p>&#xa;    <p style="text-align: center">&#xa;      virgola mobile&#xa;    </p>&#xa;  </span>
+<ul><li>&#xa;    <p>&#xa;      <b>float</b>: The float data type is a single-precision&#xa;    </p>&#xa;    <p>&#xa;      <i><b>32-bit IEEE 754</b></i>&#160;floating point.&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Definizione. </b>&#xa;    </p>&#xa;    <pre style="color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px; font-variant: normal; line-height: normal; font-style: normal; font-weight: normal; text-indent: 0px; letter-spacing: normal; text-align: start">float f1  = 123.4F&#xa;float f1  = 123.4f;</pre>&#xa;  
+&#xa;    <p>&#xa;      <b>double</b>: The double data type is a&#xa;    </p>&#xa;    <p>&#xa;      double-precision <i><b>64-bit IEEE 754</b></i>&#xa;    </p>&#xa;    <p>&#xa;      floating point:&#xa;    </p>&#xa;    <ul>&#xa;      <li>&#xa;        53 bit per la rappresentazione della mantissa,&#xa;      </li>&#xa;      <li>&#xa;        11 bit per la rappresentazione dell'esponente.&#xa;      </li>&#xa;    </ul>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Definizione. </b>&#xa;    </p>&#xa;    <pre style="color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px; font-variant: normal; line-height: normal; font-style: normal; font-weight: normal; text-indent: 0px; letter-spacing: normal; text-align: start">double d1 = 123.4;&#xa;// same value as d1, but in scientific notation&#xa;double d2 = 1.234e2;&#xa;double d3 = 1.234E-2; // 0.01234&#xa;double d4 = -1.234E-2; // -0.01234&#xa;double d5 = 123.4D;double d6 = 123.4d;</pre>&#xa;  
+</li>
+</ul><p><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Booleani</span>
+<ul><li>&#xa;    <p>&#xa;      <b>boolean</b>: The&#160;boolean&#160;data type has&#xa;    </p>&#xa;    <p>&#xa;      only two possible values:&#160;true&#160;and&#160;false.&#xa;    </p>&#xa;    <p>&#xa;      Use this data type for simple flags that&#xa;    </p>&#xa;    <p>&#xa;      track true/false conditions.&#160;&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Dichiarazione.</b>&#xa;    </p>&#xa;    <pre style="text-indent: 0px; font-style: normal; font-weight: normal; line-height: normal; word-spacing: 0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; text-align: start; text-transform: none">boolean result = true;</pre>&#xa;  
+</li>
+</ul><p><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Caratteri</span>
+<ul><li>&#xa;    <p>&#xa;      <b>char</b>: The char data type is a single 16-bit&#xa;    </p>&#xa;    <p>&#xa;      Unicode character. It has a minimum value&#xa;    </p>&#xa;    <p>&#xa;      of '\u0000' (or 0) and a maximum value of&#xa;    </p>&#xa;    <p>&#xa;      '\uffff' (or 65,535 inclusive).&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      <b>Dichiarazione. </b>&#xa;    </p>&#xa;    <pre style="text-indent: 0px; font-style: normal; font-weight: normal; line-height: normal; word-spacing: 0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; text-align: start; text-transform: none">char capitalC = 'C';</pre>&#xa;  
+</li>
+</ul></li>
+</ul></body>
+</html>

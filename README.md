@@ -4,20 +4,24 @@
 ```
 CMRO
     ├── Appunti
+    ├── Esercizi
+    ├── Testi
     └── FacSimili
 
 Logica
     ├── Appunti
-    ├── Testo
+    ├── Testi
     └── FacSimili
 
 MatematicaDiscreta
     ├── Appunti
-    ├── Testo
+    ├── Testi
     └── FacSimili
 
 Prog1
     ├── Appunti
+    ├── Esercizi
+    ├── Testi
     └── FacSimili
 ```
 **I file caricati qui sono di libero accesso per chiunque ne abbia bisogno, siete pregati di non modificare**<br>
