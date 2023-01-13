@@ -4,9 +4,6 @@ name: Sync changes from template
 # - Switch to gh. Check https://github.com/cli/cli/issues/297 for updates
 
 on:
-  # Run Everyday
-  schedule:
-    - cron: "0 0 * * *"
 
   # Run when this file changes
   push:
