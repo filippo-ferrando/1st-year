@@ -8,10 +8,12 @@ CMRO
 
 Logica
     ├── Appunti
+    ├── Testo
     └── FacSimili
 
 MatematicaDiscreta
     ├── Appunti
+    ├── Testo
     └── FacSimili
 
 Prog1
