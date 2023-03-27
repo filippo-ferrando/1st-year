@@ -48,7 +48,7 @@ public class Matrix {
         }
     }
 
-    public void mul(Matrix mat2){ //not working
+    public void mul(Matrix mat2){
         if(this.n == mat2.column()){
             int[][] mat3 = new int[this.m][mat2.column()];
             for(int i = 0; i < this.m; i++){
@@ -61,7 +61,7 @@ public class Matrix {
         }
     }
 
-    public void pow(Matrix mat2){ //not working
+    public void pow(Matrix mat2){
         if(this.n == mat2.column()){
             int[][] mat3 = new int[this.m][mat2.column()];
             for(int i = 0; i < this.m; i++){
