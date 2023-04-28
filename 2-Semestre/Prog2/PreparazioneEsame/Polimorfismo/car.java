@@ -1,4 +1,4 @@
-public class car implements manoeuvres {
+public abstract class car implements manoeuvres {
     public void turnAround() {
         System.out.println("car Turn around");
     }
